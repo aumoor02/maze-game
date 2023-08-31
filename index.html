@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">            
+                <h1>Maze Game</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col instructions">
+                <h2>Instructions: </h2>
+                <p>Use the arrow keys ⬅️⬆️➡️⬇️ to reach the finish ⭐</p>
+                <p>Beware: Do not touch the walls, otherwise you will have to restart!</p>
+            </div>
+            <div class="col">
+                <canvas id="canvas"></canvas>
+                <img src="images/Red_Circle(small).svg.png" id="player" alt="">
+                <img src="images/finish.jpg" id="finish" alt="">
+            </div>
+        </div>
+
+    </div>
+    
+
+   
+
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>
